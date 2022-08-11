@@ -1,0 +1,54 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello Dear, thanks for asking", "Good to see you again Dearest", "Hi Dear, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can suggest activities for you to do!"],
+         "context": [""]
+        },
+        {"tag": "sports",
+         "patterns": ["What sports should I do?", "Which sports is right for me?", "Give me a sport activity to do"],
+         "responses": ["Football and Basketball if you are more athletic, but if you are just starting out, maybe Badminton or a quick run in the park would suffice!"],
+         "context": [""]
+        },
+        {"tag": "date",
+         "patterns": ["Where should I go on my date?", "Where do I bring my date?", "Places to bring my date", "List me places for dating"],
+         "responses": ["Maybe a picnic by the beach, or perhaps a movie night! What about maybe a wholesome activity like building a puzzle together!"],
+         "context": [""]
+        },
+        {"tag": "book",
+         "patterns": ["What books should I read?", "Give me a list of book recommendations", "Best book to read"],
+         "responses": ["Maybe Demian or Lord of the Flies?"],
+         "context": [""]
+        },
+        {"tag": "eat",
+         "patterns": ["What should I eat?", "Places to eat at", "Nice food to eat"],
+         "responses": ["HMMMM, Prawn noodles, Lor Mee, oooooo your favourite Fried Chicken from McDonalds. Haiss, maybe its back to caifan, YTF, or Banmian if you are on a diet. Maybe Mala since its your favourite"],
+         "context": [""]
+        },
+        {"tag": "love",
+        "patterns": ["I love you", "I like you", "Miss you", "I wish you were here"],
+        "responses": ["Hey darling, I love you. You will forever be my dearest of all time, remember that! I love you in every single universe a billion times over <3"],
+        "context": [""]
+        }
+
+   ]
+}
